@@ -3,11 +3,11 @@ ptint ("how are you")
 ptint ("I am fine ")
 
 
-    def saludar (): 
+    def saludara (): 
       print ("saludar cada que te saluden")
 
 
-      saludar(); 
+      saludara (); 
 
       def saludar (nombre, apellido):
         print("Buenos dias" +apellido+ nombre + )
@@ -19,4 +19,3 @@ ptint ("I am fine ")
 
         saludar(nombre, apellido)
 
-        
