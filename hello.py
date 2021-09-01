@@ -8,3 +8,15 @@ ptint ("I am fine ")
 
 
       saludar(); 
+
+      def saludar (nombre, apellido):
+        print("Buenos dias" +apellido+ nombre + )
+
+
+        nombre = "Anabel"
+        apellido="Tejada"
+
+
+        saludar(nombre, apellido)
+
+        
