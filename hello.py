@@ -30,14 +30,22 @@ B= 0
 # Entradas de valores 
 print ("ingrese dos numeros ")
 #Asignarlos a variables 
+A, B=map(int, input().split())
+
+"""
 A= int(input("Primer numero"))  
 B= int(input("Segundo numero"))
+comment.
+"""
+ 
+
 
 #si A=B entonces vuelve al paso 3 por que los valores deben ser distinto 
-
-if A == B :
-    print("son iguales los nuemro")
-elif A > B: 
-        print("El primer numero es mayor")
-else: 
-     print("El segundo numero es mayor")
+def sonigules(A, B):
+  if A == B :
+      print("son iguales los nuemro")
+  elif A > B: 
+          print("El primer numero es mayor")
+  else: 
+      print("El segundo numero es mayor")
+print(sonigules(A,B))
