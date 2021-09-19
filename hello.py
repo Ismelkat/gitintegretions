@@ -19,8 +19,12 @@ a=2
 b=3
 
 
-print("Ingrese dos numeo separado para calcular rectangulo perimetro xd")
-width, height = map(int, input().split())
-def rectanglePerimeter(width, height):
-   return ((width + height)*2)
-print(rectanglePerimeter(width, height))
+print("Ingrese dos numeo separado para calcular rectangulo perimetro")
+try:
+    width = input()
+    height = input()
+    def rectanglePerimeter(width, height):
+       return ((width + height)*2)
+    print(rectanglePerimeter(width, height))
+except EOFError as e:
+    print(end="bueno un error EFO")
