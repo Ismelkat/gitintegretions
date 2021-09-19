@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Selenium {
 
    public static void main(String[] args) {
-       System.setProperty("webdriver.chrome.driver","F:\\Jenkins\\workspace\\chromedriver.exe");	// <-- Change this path
+      System.setProperty("webdriver.chrome.driver","C:\\Windows\\System32\\config\\systemprofile\\AppData\\Local\\Jenkins\\.jenkins\\jobs\\Demo-Pipeline-selenium-git\\chromedriver.exe" );	// <-- Change this path	// <-- Change this path
        WebDriver driver = new ChromeDriver();
        String baseUrl = "https://experitest.com/free-trial/";
        String expectedTitle = "Free trial";
