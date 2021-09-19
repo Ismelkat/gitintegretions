@@ -46,4 +46,4 @@ try:
         print("El segundo numero es mayor")
   print(sonigules(A,B))
 except EOFError as e : 
-    print(end="error EOF")
+    print(end="error EOF no se igreso ningun numero ")
