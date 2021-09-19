@@ -19,33 +19,8 @@ a=2
 b=3
 
 
-
-# Determinar cual de los dos valores es el mayor y escribirlo. 
-
-#Inicio 
-# Inicializar Variable a=0, b=0
-A= 0 
-B= 0
-
-# Entradas de valores 
-print ("ingrese dos numeros ")
-#Asignarlos a variables 
-A, B=map(int, input().split())
-
-"""
-A= int(input("Primer numero"))  
-B= int(input("Segundo numero"))
-comment.
-"""
- 
-
-
-#si A=B entonces vuelve al paso 3 por que los valores deben ser distinto 
-def sonigules(A, B):
-  if A == B :
-      print("son iguales los nuemro")
-  elif A > B: 
-          print("El primer numero es mayor")
-  else: 
-      print("El segundo numero es mayor")
-print(sonigules(A,B))
+print("Ingrese dos numeo separado para calcular rectangulo perimetro xd")
+width, height = map(int, input().split())
+def rectanglePerimeter(width, height):
+   return ((width + height)*2)
+print(rectanglePerimeter(width, height))
