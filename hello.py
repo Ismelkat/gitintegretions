@@ -19,12 +19,31 @@ a=2
 b=3
 
 
-print("Ingrese dos numeo separado para calcular rectangulo perimetro")
-try:
-    width = input()
-    height = input()
-    def rectanglePerimeter(width, height):
-       return ((width + height)*2)
-    print(rectanglePerimeter(width, height))
-except EOFError as e:
-    print(end="bueno un error EFO")
+
+# Determinar cual de los dos valores es el mayor y escribirlo. 
+
+#Inicio 
+# Inicializar Variable a=0, b=0
+A= 0 
+B= 0
+
+# Entradas de valores 
+print ("ingrese dos numeros ")
+
+
+
+try: 
+  A= int(input("Primer numero"))  
+  B= int(input("Segundo numero"))
+
+  #si A=B entonces vuelve al paso 3 por que los valores deben ser distinto 
+  def sonigules(A, B):
+    if A == B :
+        print("son iguales los nuemro")
+    elif A > B: 
+            print("El primer numero es mayor")
+    else: 
+        print("El segundo numero es mayor")
+  print(sonigules(A,B))
+except EOFError as e : 
+    print(end="error EOF")
