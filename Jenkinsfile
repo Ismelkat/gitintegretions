@@ -3,11 +3,11 @@ node {
 		git "https://github.com/Ismelkat/gitintegretions"
 		}
 	stage ('Build'){
-    	dir("comtest") {
+    	dir("target") {
 	   sh "mvn clean install"
        }
-       	dir("comtest/target") {
-	   sh "java -jar com.test-1.0-SNAPSHOT.jar"
+       	dir("target") {
+	   sh "java -jar com.my-app-1.jar"
        }
 		}
 }
